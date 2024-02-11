@@ -56,7 +56,6 @@ const Feed = () => {
         </section>
 
         <section className="project">
-          <h1>{projectName || 'Loading...'}</h1>
           <div className="big-btn">
             <IonButton className="btn project-big" fill="clear">
               <IonImg src="assets/img/project-big.png" alt="" />
