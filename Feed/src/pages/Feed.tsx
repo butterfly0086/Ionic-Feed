@@ -83,9 +83,6 @@ const Feed = () => {
               <IonImg src="assets/img/sub2.png" alt="" />
             </IonButton>
           </div>
-          <IonButton className="btn" fill="clear">
-            <IonImg src="assets/img/subs.png" alt="" />
-          </IonButton>
         </section>
 
         <section className="footer-btn">
