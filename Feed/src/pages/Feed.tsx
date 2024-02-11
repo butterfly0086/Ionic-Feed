@@ -58,6 +58,15 @@ const Feed = () => {
         <section className="project">
           <h1>{projectName || 'Loading...'}</h1>
           <div className="big-btn">
+            <IonButton className="btn project-big" fill="clear">
+              <IonImg src="assets/img/project-big.png" alt="" />
+            </IonButton>
+            <IonButton className="btn mini1" fill="clear">
+              <IonImg src="assets/img/mini1.png" alt="" />
+            </IonButton>
+            <IonButton className="btn mini2" fill="clear">
+              <IonImg src="assets/img/mini2.png" alt="" />
+            </IonButton>
             <IonButton className="btn mini3" fill="clear">
               <IonImg src="assets/img/mini3.png" alt="" />
             </IonButton>
