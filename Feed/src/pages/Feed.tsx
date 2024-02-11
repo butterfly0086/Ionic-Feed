@@ -88,11 +88,11 @@ const Feed = () => {
           </IonButton>
         </section>
 
-        {/* <section className="footer-btn">
+        <section className="footer-btn p-fixed">
           <IonButton fill="clear">
             <IonImg src="assets/img/footer.png" alt="" />
           </IonButton>
-        </section> */}
+        </section>
       </IonContent>
     </IonPage>
   );
